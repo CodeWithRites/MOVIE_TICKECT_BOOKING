@@ -41,7 +41,7 @@
             background-color: #ff3c00;
             color: white;
             border: none;
-            border-radius: 8px;
+            border-radius: 8.5px;
             width: 100%;
             padding: 10px;
             font-weight: bold;
