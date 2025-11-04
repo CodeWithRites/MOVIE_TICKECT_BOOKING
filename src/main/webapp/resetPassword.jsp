@@ -7,54 +7,90 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background: radial-gradient(circle at center, #1b1b2f, #000);
-            font-family: 'Poppins', sans-serif;
-            color: #fff;
+            margin: 0;
+            height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            background: linear-gradient(135deg, #ff512f, #dd2476);
+            font-family: 'Poppins', sans-serif;
         }
-        .reset-box {
-            background: #2c2c3c;
-            padding: 35px;
-            border-radius: 15px;
-            box-shadow: 0 0 20px rgba(255,60,0,0.4);
-            width: 400px;
+
+        .reset-container {
+            width: 380px;
+            padding: 40px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
         }
-        h3 {
+
+        .reset-container h3 {
             text-align: center;
-            color: #ff3c00;
-            margin-bottom: 25px;
-        }
-        label {
+            margin-bottom: 30px;
+            color: #ffffff;
             font-weight: 600;
+            letter-spacing: 1px;
         }
-        input {
-            border-radius: 8px;
-            border: none;
-            padding: 10px;
+
+        label {
+            font-weight: 500;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input[type="email"],
+        input[type="password"] {
             width: 100%;
-            margin-bottom: 15px;
+            border: none;
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 18px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            outline: none;
         }
+
+        input::placeholder {
+            color: #ddd;
+        }
+
         .btn-reset {
-            background-color: #ff3c00;
-            color: white;
-            border: none;
-            border-radius: 8.5px;
             width: 100%;
-            padding: 10px;
-            font-weight: bold;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            background: linear-gradient(90deg, #ff512f, #f09819);
+            color: white;
+            font-weight: 600;
+            transition: 0.3s ease;
         }
+
         .btn-reset:hover {
-            background-color: #ff5722;
+            background: linear-gradient(90deg, #f09819, #ff512f);
+            transform: translateY(-2px);
+        }
+
+        .footer-text {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .footer-text a {
+            color: #fff;
+            text-decoration: underline;
         }
     </style>
 </head>
 
 <body>
-    <div class="reset-box">
-        <h3>Reset Password</h3>
+    <div class="reset-container">
+        <h3>🔒 Reset Password</h3>
         <form action="UpdatePasswordServlet" method="post">
             <label>Email ID</label>
             <input type="email" name="email" placeholder="Enter your registered email" required>
@@ -67,6 +103,10 @@
 
             <button type="submit" class="btn-reset">Update Password</button>
         </form>
+
+        <p class="footer-text">
+            Remembered your password? <a href="login.jsp">Login here</a>
+        </p>
     </div>
 </body>
 </html>
