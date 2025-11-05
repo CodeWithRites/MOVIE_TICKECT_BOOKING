@@ -25,7 +25,7 @@ public class UpdatePasswordServlet extends HttpServlet {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/cinema_db", "root", "Ritesh@2005");
+                    "jdbc:mysql://localhost:3306/cinema_db", "root", "arigato720");
 
             String sql = "UPDATE users SET password=? WHERE email=?";
             PreparedStatement ps = conn.prepareStatement(sql);

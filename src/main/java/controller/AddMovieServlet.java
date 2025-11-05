@@ -57,7 +57,7 @@ public class AddMovieServlet extends HttpServlet {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cinema_db", "root", "Ritesh@2005");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cinema_db", "root", "arigato720");
 
             String sql = "INSERT INTO movies " +
                          "(title, genre, duration, release_date, image_url, description, theater, show_time, " +
