@@ -14,7 +14,7 @@ public class DBConnection {
                 connection = DriverManager.getConnection(
                         "jdbc:mysql://localhost:3306/cinema_db",
                         "root",  
-                        "Ritesh@2005" 
+                        "arigato720" 
                 );
             }
         } catch (Exception e) {

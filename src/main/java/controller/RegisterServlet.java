@@ -22,7 +22,7 @@ public class RegisterServlet extends HttpServlet {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/cinema_db", "root", "Ritesh@2005"
+                "jdbc:mysql://localhost:3306/cinema_db", "root", "arigato720"
             );
 
             PreparedStatement ps = conn.prepareStatement(

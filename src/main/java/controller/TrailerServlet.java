@@ -29,7 +29,7 @@ public class TrailerServlet extends HttpServlet {
             // ✅ Connect to DB
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/cinema_db", "root", "Ritesh@2005");
+                    "jdbc:mysql://localhost:3306/cinema_db", "root", "arigato720");
 
             // ✅ Fetch trailer blob
             ps = conn.prepareStatement("SELECT trailer_link FROM movies WHERE id = ?");
