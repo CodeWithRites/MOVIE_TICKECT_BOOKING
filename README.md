@@ -1,10 +1,10 @@
-**🎬 Cinema Ticket Booking System
+##🎬 Cinema Ticket Booking System
 
 A full-stack Java web application for managing cinema ticket bookings, featuring real-time seat selection, calendar-based scheduling, and Razorpay payment gateway integration.
 This system provides both user-facing booking functionality and admin management capabilities, making it a complete end-to-end movie ticketing platform.
 
 
-**🧩 Overview
+##🧩 Overview
 
 The Cinema Ticket Booking System simplifies the process of movie ticket reservation by digitizing every step — from movie selection to ticket generation.
 It replicates real-world functionality found in major online ticketing systems (like BookMyShow), but designed from scratch using JSP, Servlets, and MySQL.
@@ -21,7 +21,7 @@ Database-driven session and booking management
 
 
 
-💡 Motivation
+##💡 Motivation
 
 Traditional movie booking processes involve manual reservations or fragmented online systems.
 This project was developed to:
@@ -37,9 +37,9 @@ Strengthen database interaction skills through complex relational queries.
 The goal was not only to build a functional system but to follow professional standards of design, readability, and scalability.
 
 
-⚙️ Key Features
+##⚙️ Key Features
 
-🎟 User Module
+##🎟 User Module
 
 Register and login securely using a MySQL-backed authentication system.
 
@@ -56,7 +56,7 @@ Make online payments via Razorpay test integration.
 Download a digital ticket as a PDF file post-payment.
 
 
-🧑‍💼 Admin Module
+##🧑‍💼 Admin Module
 
 Add, update, or delete movies and showtimes.
 
@@ -67,14 +67,14 @@ View all bookings and payment records.
 Monitor seat availability in real-time.
 
 
-💰 Payment Integration
+##💰 Payment Integration
 
 Fully functional Razorpay API integration for real payments in test mode.
 
 Secure transaction handling using generated order_id and payment verification.
 
 
-📅 Calendar Booking
+##📅 Calendar Booking
 
 Users select their preferred date directly in the booking_admin.jsp.
 
@@ -82,7 +82,7 @@ The chosen date is propagated through payment.jsp, ticket.jsp, and stored in the
 
 
 
-🚀 How It Works
+##🚀 How It Works
 
 User Login/Register → Session created.
 
@@ -100,7 +100,7 @@ Ticket Generation → PDF generated dynamically.
 
 
 
-💾 Data Flow Diagram
+##💾 Data Flow Diagram
 
 USER WORK FLOW
 
@@ -117,7 +117,7 @@ ADMIN WORK FLOW
 
 
 
-🧠 Learning Outcomes
+##🧠 Learning Outcomes
 
 This project helped in mastering:
 
@@ -137,7 +137,7 @@ Real-time state management for seat availability
 
 
 
-📈 Future Enhancements
+##📈 Future Enhancements
 
 Implement JWT-based authentication for better security.
 
