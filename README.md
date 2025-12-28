@@ -1,10 +1,10 @@
-🎬 Cinema Ticket Booking System
+**🎬 Cinema Ticket Booking System
 
 A full-stack Java web application for managing cinema ticket bookings, featuring real-time seat selection, calendar-based scheduling, and Razorpay payment gateway integration.
 This system provides both user-facing booking functionality and admin management capabilities, making it a complete end-to-end movie ticketing platform.
 
 
-🧩 Overview
+**🧩 Overview
 
 The Cinema Ticket Booking System simplifies the process of movie ticket reservation by digitizing every step — from movie selection to ticket generation.
 It replicates real-world functionality found in major online ticketing systems (like BookMyShow), but designed from scratch using JSP, Servlets, and MySQL.
